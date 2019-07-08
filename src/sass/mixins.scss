@@ -1,0 +1,11 @@
+
+  @mixin bg-image($url) {
+    background: linear-gradient (180deg,rgba(0,0,0,.3),rgba(0,0,0,.7)), url($url);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  

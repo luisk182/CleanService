@@ -1,0 +1,6 @@
+/* @import 'mixins'; */
+
+.principal {
+    height:100vh;
+    @include bg-image("/static/material/bg1.jpg");
+}
